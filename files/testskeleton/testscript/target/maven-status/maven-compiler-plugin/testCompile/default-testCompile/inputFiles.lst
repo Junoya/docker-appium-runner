@@ -1,0 +1,10 @@
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/AppiumSupport/AppiumController.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/AppiumSupport/AppiumBaseClass.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/PageObjects/AccessibilityPageAndroid.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/PageObjects/MainPageAndroid.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/Test/BaseTestClass.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/Test/TestAPIDemo.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/PageObjects/MainPageiOS.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/PageObjects/MainPage.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/PageObjects/AccessibilityPageiOS.java
+/Users/kakao/prj/docker-test-runner/files/testskeleton/testscript/src/test/java/PageObjects/AccessibilityPage.java
