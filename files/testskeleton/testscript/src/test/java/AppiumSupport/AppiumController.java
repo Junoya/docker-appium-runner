@@ -43,6 +43,16 @@ public class AppiumController {
                 driver =  new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
                 break;
             case IOS:
+//                File classpathRoot = new File(System.getProperty("user.dir"));
+//                File appDir = new File("/", "/Users/hwangheeseon/Library/Developer/Xcode/DerivedData/FoodTracker-eesrwojtljoixdbhqrhzrprvqmbo/Build/Products/Debug-iphonesimulator");
+//                File app = new File(appDir, "FoodTracker.app");
+//                DesiredCapabilities capabilities = new DesiredCapabilities();
+//                capabilities = new DesiredCapabilities();
+//                capabilities.setCapability("automationName", "XCUITest");
+//                capabilities.setCapability("platformName", "ios");
+//                capabilities.setCapability("deviceName", "iPhone 6");
+//                capabilities.setCapability("app", app.getAbsolutePath());
+//                driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
                 break;
         }
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

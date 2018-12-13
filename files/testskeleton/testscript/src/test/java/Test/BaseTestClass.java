@@ -15,12 +15,16 @@ import PageObjects.MainPageAndroid;
 
 
 public class BaseTestClass extends AppiumBaseClass{
-
+//    protected static FoodTrackerMainPage mainPage;
+//    protected static FoodTrackerRegisterFoodPage registerMenuPage;
+//    protected static PhotoPage photoPage;
 	protected static MainPage mainPage;
 	protected static AccessibilityPage accessibilityPage;
-	   
+	
+    
     public static final int NEEDS_NETWORK_DELAY = 1;
     public static final int NEEDS_SWITCH_SCREEN_DELAY = 2000;
+    public static final int NEEDS_CAPTURE_SCREEN_DELAY = 2000;
 
     @BeforeClass
     public static void setUp() throws Exception {
@@ -33,6 +37,9 @@ public class BaseTestClass extends AppiumBaseClass{
             	accessibilityPage = new AccessibilityPageAndroid(driver());
                 break;
             case IOS:
+//                mainPage = new FoodTrackerMainPageIOS(driver());
+//                registerMenuPage = new FoodTrackerRegisterFoodPageIOS(driver());
+//                photoPage = new PhotoPageIOS(driver());
                 break;
         }
     }
