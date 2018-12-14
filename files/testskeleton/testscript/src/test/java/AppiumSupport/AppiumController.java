@@ -55,7 +55,7 @@ public class AppiumController {
 //                driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
                 break;
         }
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(160, TimeUnit.SECONDS);
     }
 
     public void stop() {

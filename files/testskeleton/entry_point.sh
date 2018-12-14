@@ -13,8 +13,11 @@
 #echo VERSION $VERSION
 #echo PLATFORM $PLATFORM
 
-adb connect localhost:7401
+#adb connect localhost:7401
 
+DEVICE_SERIAL="0715f7f091320404"
+connectUrl=$(node ./stf/stf_connect.js $DEVICE_SERIAL)
+echo $connectUrl
 # Run appium server
 echo "Run appium server"
 (appium &) > /dev/null 2>&1
