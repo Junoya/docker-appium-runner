@@ -40,6 +40,8 @@ public class AppiumController {
                 //capabilities.setCapability("udid","adb devices를 통해 얻은 device ID"); //여러 디바이스가 설치된 경우, 테스트하고자 하는 디바이스를 선택 
 
                 capabilities.setCapability("app", app.getAbsolutePath());
+		String serial = System.getProperty("SERIAL");
+		capabilities.setCapability(MobileCapabilityType.UDID, serial);
                 driver =  new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
                 break;
             case IOS:
